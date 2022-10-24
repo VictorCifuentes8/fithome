@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Configuración de elementos visuales para el encabezado o header de la pagina
+--------------------------------Header------------------------------------------
+*/
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(228, 172, 126);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    justify-content: center;
+}
+
+.header_busqueda{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header_busquedaTexto{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 70%;
+}
+
+.header_busquedaIcono{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+
+.header_itemNavegacion{
+    font-size: 10px;
+}
+
+.header_opcionNavegacion{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_cuenta{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_contactanos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_carrito{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_carritoOpcion{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header_productosCarrito{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_navegacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
